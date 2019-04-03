@@ -4,6 +4,46 @@ body {
     font-family: sans-serif;
 }
 
+ul.topnav {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+ul.topnav li {float: left;}
+
+ul.topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+ul.topnav li a:hover:not(.active) {background-color: #111;}
+
+ul.topnav li a.active {background-color: #4CAF50;}
+
+ul.topnav li.right {float: right;}
+
+@media screen and (max-width: 600px) {
+  ul.topnav li.right, 
+  ul.topnav li {float: none;}
+}
+</style>
+</head>
+<body>
+
+<ul class="topnav">
+  <li><a class="active" href="#home">Home</a></li>
+  <li><a href="#news">News</a></li>
+  <li><a href="#contact">Contact</a></li>
+  <li class="right"><a href="#about">About</a></li>
+</ul>
+
+
 /*
 header {
     display: flex;
@@ -29,6 +69,8 @@ header li {
     margin-left: 20px;
 }
 */
+
+/*
 #mobile-nav {
   display: none;
   text-align: right;
@@ -96,10 +138,10 @@ section {
     align-items: center;
     text-align: center;
     
-    background-size: cover; /* Add this line */
-    background-position: center center; /* Add this line */
-    background-repeat: no-repeat; /* Add this line */
-    background-attachment: fixed; /* Add this line */
+    background-size: cover; // Add this line 
+    background-position: center center; // Add this line 
+    background-repeat: no-repeat; // Add this line 
+    background-attachment: fixed; // Add this line 
 }
 
 #profile .profile-img {
@@ -129,7 +171,7 @@ header a {
     color: black;
 }
 
-/* Add everything below here */
+//Add background below here
 
 #profile {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/field.jpg');
@@ -142,3 +184,4 @@ header a {
 #contact {
     background-image: linear-gradient(rgba(255,255,255,0.75),rgba(255,255,255,0.75)), url('https://codetheweb.blog/assets/img/posts/steps-to-creating-a-website/canyon.jpg');
 }
+*/
