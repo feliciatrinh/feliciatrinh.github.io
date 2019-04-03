@@ -4,6 +4,7 @@ body {
     font-family: sans-serif;
 }
 
+/*
 header {
     display: flex;
     position: fixed;
@@ -26,6 +27,48 @@ header ul {
 
 header li {
     margin-left: 20px;
+}
+*/
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav {
+  display: block;
+  float: right;
+
+  text-align: right;
+  background: none;
+  position: absolute;
+  bottom: 13px;
+  right: 0px;
+}
+
+nav ul {
+  padding-left: 0;
+  background-color: #333;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+nav ul li {
+  margin-right: 20px;
+  margin-bottom: 0px;
+  line-height: 1;
+  float: left;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  color: white;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+    background-color: #111;
 }
 
 section {

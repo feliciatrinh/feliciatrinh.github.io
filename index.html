@@ -1,20 +1,31 @@
 <!DOCTYPE html> 
 <html>
 	<head>
-		<title>Felicia Trinh</title>title>
+		<title>Felicia Trinh</title>
 		<link rel="stylesheet" href="style.css">
 	</head>
 
 	<body>
-		<header>
-			<nav>
+	<div id="sidebar">
+			<div id="mobile-nav">
+				<a href="#!" onclick="toggleMenu()" class="white">MENU</a>
+			</div>
+		<nav id="categories" role="navigation">
+			<div class="menu">
 				<ul>
-					<li><a href="#introduction">INTRODUCTION</a></li>
-					<li><a href="#portfolio">PORTFOLIO</a></li>
-					<li><a href="#contact">CONTACT</a></li>
+					<li class="introduction">
+						<a class="active" href="#introduction" onclick="$(window).scrollTo($('#introduction'), 400, {offset:-50});toggleMenu();">Introduction</a>
+					</li>
+					<li class="portfolio">
+						<a href="#portfolio" onclick="$(window).scrollTo($('#portfolio'), 400, {offset:-50});toggleMenu();">Portfolio</a>
+					</li>
+					<li class="contact">
+						<a href="#contact" onclick="$(window).scrollTo($('#contact'), 400, {offset:-50});toggleMenu();">Contact</a>
+					</li>
 				</ul>
-			</nav>
-		</header>
+			</div>
+		</nav>
+	</div>
 		<main>
 			<section id="profile">
 				<img src="profile.jpg" class="profile-img"
