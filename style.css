@@ -29,10 +29,28 @@ header li {
     margin-left: 20px;
 }
 */
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
+#mobile-nav {
+  display: none;
+  text-align: right;
+  margin-top: 9px;
+  margin-right: 20px;
+  margin-bottom: 8px;
+}
+
+#categories ul li a.active {
+  color: #F33446;
+}
+
+a {
+  text-decoration:none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+a.white {
+  color: #FFF;
 }
 
 nav {
