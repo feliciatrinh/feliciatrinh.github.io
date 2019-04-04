@@ -21,10 +21,12 @@ ul.topnav li a {
   padding: 14px 16px;
   font-size: 60;
   text-transform: uppercase;
-  text-decoration: none; 
 }
 
-ul.topnav li a:hover:not(.active) {background-color: #111;}
+ul.topnav li a:hover:not(.active) {
+  background-color: #111;
+  text-decoration: none; 
+}
 
 @media screen and (max-width: 600px) {
   ul.topnav li.right, 
