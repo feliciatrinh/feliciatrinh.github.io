@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  font-size: 50;
+  font-size: 20;
   font-family: "Roboto";
 }
 
@@ -19,13 +19,14 @@ ul.topnav li a {
   color: white;
   text-align: center;
   padding: 10px 16px;
+  font-size: 45;
+  text-decoration: none; 
   text-transform: uppercase;
 }
 
 ul.topnav li a:hover:not(.active) {
   background-color: #111;
   text-decoration: none; 
-  font-size: 45;
 }
 
 @media screen and (max-width: 600px) {
