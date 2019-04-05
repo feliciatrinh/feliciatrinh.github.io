@@ -9,7 +9,7 @@ body {
 footer {color: white;}
 
 .hero-image {
-  background-image: url(/images/bg.jpg)
+  background-image: url(images/bg.jpg)
   background-color: #cccccc;
   width: 2000px;
   height: 500px;
