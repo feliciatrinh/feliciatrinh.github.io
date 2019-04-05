@@ -30,7 +30,7 @@ footer {color: white;}
 
 h1 {font-size: 50px;}
 
-ul.topnav {
+/*ul.topnav {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -60,4 +60,4 @@ ul.topnav li a:hover:not(.active) {
   ul.topnav li.right, 
   ul.topnav li {float: none;}
 }
-
+*/
