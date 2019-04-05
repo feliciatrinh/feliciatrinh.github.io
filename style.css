@@ -4,11 +4,11 @@ body {
   font-family: "Roboto";
   text-decoration: none; 
   font-color: white;
-  background-image: url(/images/computer_background.jpg)
+  background-image: url("/images/computer_background.jpg")
 }
 
 .hero-image {
-  background-image: url(/images/computer_background.jpg)
+  background-image: url("/images/computer_background.jpg")
   background-color: #cccccc;
   height: 500px;
   background-position: center;
