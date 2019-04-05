@@ -3,7 +3,7 @@ body {
   font-size: 20;
   font-family: "Roboto";
   text-decoration: none; 
-  background-image: url("images/computer_background.jpg")
+  background-image: url(../images/computer_background.jpg)
 }
 
 ul.topnav {
