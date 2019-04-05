@@ -3,6 +3,7 @@ body {
   font-size: 20;
   font-family: "Roboto";
   text-decoration: none; 
+  font-color: white;
   background-image: url(/images/bg.jpg)
 }
 
