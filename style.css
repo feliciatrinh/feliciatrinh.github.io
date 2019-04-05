@@ -7,8 +7,8 @@ body {
 }
 
 .hero-image {
-  background-image: url(/images/bg.jpg)
-  bacckground-color: #cccccc;
+  background-image: url(/images/computer_background.jpg)
+  background-color: #cccccc;
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
