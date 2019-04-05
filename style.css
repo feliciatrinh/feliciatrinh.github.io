@@ -4,6 +4,7 @@ body {
   font-family: "Roboto";
   text-decoration: none; 
   color: white;
+  background: url(/images/bg.png) blue; 
 }
 
 footer {color: white;}
