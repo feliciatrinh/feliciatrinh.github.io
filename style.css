@@ -9,7 +9,7 @@ body {
 footer {color: white;}
 
 .hero-image {
-  background-image: url("cdn.stocksnap.io/img-thumbs/960w/X0R5VP6BSB.jpg")
+  background-image: url(/images/profile.jpg)
   width: 100vw;
   height: 100vh;
   background-size: 100% 100%;
