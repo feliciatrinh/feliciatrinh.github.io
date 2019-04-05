@@ -3,6 +3,8 @@ body {
   font-size: 20;
   font-family: "Roboto";
   text-decoration: none; 
+  background-image: url("computer_background.jpg")
+  background-attachment: fixed;
 }
 
 ul.topnav {
