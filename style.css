@@ -4,6 +4,7 @@ body {
   font-family: "Roboto";
   text-decoration: none; 
   font-color: white;
+  background-image: url(/images/computer_background.jpg)
 }
 
 .hero-image {
