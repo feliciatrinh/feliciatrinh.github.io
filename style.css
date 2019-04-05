@@ -8,18 +8,18 @@ body {
 
 footer {color: white;}
 
-div.hero-image {
+.hero-image {
   background-image: url(/images/bg.jpg)
   background-color: #cccccc;
-  width: 2000px;
-  height: 500px;
+  width: 100vw;
+  height: 100vh;
   background-position: center;
-  background-repeat: no-repeat;
   background-size: cover;
+  background-repeat: no-repeat;
   position: relative;
 }
 
-div.hero-text {
+.hero-text {
   font-family: "Roboto"; 
   text-align: center;
   position: absolute;
@@ -35,7 +35,7 @@ ul.topnav {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  overflow: hidden;
+  overflow: auto;
   background-color: #333;
 }
 
