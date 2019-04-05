@@ -4,7 +4,6 @@ body {
   font-family: "Roboto";
   text-decoration: none; 
   color: white;
-  background-image: url(/images/bg.jpg)
 }
 
 footer {color: white;}
@@ -12,6 +11,7 @@ footer {color: white;}
 .hero-image {
   background-image: url(/images/bg.jpg)
   background-color: #cccccc;
+  width: 2000px;
   height: 500px;
   background-position: center;
   background-repeat: no-repeat;
