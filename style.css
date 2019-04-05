@@ -23,6 +23,7 @@ ul.topnav li a {
   font-size: 45;
   text-decoration: none; 
   text-transform: uppercase;
+  letter-spacing: 1.1
 }
 
 ul.topnav li a:hover:not(.active) {
