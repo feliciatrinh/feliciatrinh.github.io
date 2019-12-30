@@ -30,6 +30,33 @@
 
 		<div id="portfoilio" class="grid grid-pad">
 			<h2 class="heading">Portfolio</h2>
+			
+			<div class="col-1-2">
+				<h3>Emoji</h3>
+		      	<!-- <a id="emojiModal" href="#emoji" class="modal-link"> -->
+		      	<a id="emojiModal" href="https://feliciatrinh.github.io/emoji" class="modal-link">
+		        	<div class="overlay-container">
+		          		<div class="overlay">
+			            	<i class="zmdi zmdi-link"></i>
+		          		</div>
+		          		<img src="images/emoji.jpg" alt="Emoji"/>
+		        	</div>
+		      	</a>
+			</div>
+
+			<div class="col-1-2">
+				<h3>Pip</h3>
+				<a id="pipModal" href="https://pypi.org/project/pvporcupine/">
+		      	<!-- <a id="pipModal" href="#pip" class="modal-link"> -->
+		        	<div class="overlay-container">
+		          		<div class="overlay">
+			            	<i class="zmdi zmdi-link"></i>
+		          		</div>
+		          		<img src="images/pip.jpg" alt="Pip"/>
+		        	</div>
+		      	</a>
+			</div>
+
 			<p>Check out my projects at<a href="https://github.com/feliciatrinh"> github.com/feliciatrinh </a></p>
 		</div>
 
@@ -45,12 +72,49 @@
 						<i class="zmdi zmdi-github-box"></i>
 						<div class="social-text">github.com<wbr>/feliciatrinh</div>
 					</a>
-					<a href="https://linkedin.com/in/felicia-trinh/" title="linkedin.com/in/felicia-trinh" style="left: 67%; right: 0%">
+					<a href="https://linkedin.com/in/feliciatrinh/" title="linkedin.com/in/feliciatrinh" style="left: 67%; right: 0%">
 						<i class="zmdi zmdi-linkedin-box"></i>
-						<div class="social-text">linkedin.com<wbr>/in/felicia-trinh</div>
+						<div class="social-text">linkedin.com<wbr>/in/feliciatrinh</div>
 					</a>
 				</div>
 			</div>
 		</div>
+
+<!-- Modals -->
+	<div id="emoji" class="modal-container">
+		<div class="modal-background close-emoji modal-close" role="document"></div>
+		<div class="modal-content grid grid-pad">
+			<div class="modal-header">
+				<span class="close">&times;</span>
+				<h2> Emoji </h2>
+			</div>
+			<div class="modal-body">
+				<img src="images/emoji.jpg" alt="Emoji"/>
+				<p> Emoji by Picovoice </p>
+			</div>
+		</div>
+	</div>
+
+	<script>
+		var modal = document.getElementById("emoji");
+		var span = document.getElementByClassName("close")[0];
+
+		// modal.onclick = function() {
+		// 	modal.style.display = "block";
+		// }
+
+		// closes modal when user clicks on <span> (x)
+		span.onclick = function() {
+			modal.style.display = "none";
+		}
+
+		// closes modal when user clicks anywhere outside of it
+		window.onclick = function(event) {
+			if (event.target == modal) {
+				modal.style.display = "none";
+			}
+		}
+	</script>
+
 	</body>
 </html>
