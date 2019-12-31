@@ -7,11 +7,15 @@
 		<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/material-design-iconic-font/2.1.1/css/material-design-iconic-font.min.css">
 	</head>
 	<body>
-		<ul class="topnav">
-			<li><a href="#contact">Contact</a></li>
-			<li><a href="#portfoilio">Portfolio</a></li>
-  			<li><a href="#introduction">Introduction</a></li>
-		</ul>
+		<div class="topnav" id="myTopnav">
+			<a href="#home" class="active">Home</a>
+  			<a href="#introduction" onclick="section()">Introduction</a>
+			<a href="#portfoilio" onclick="section()">Portfolio</a>
+			<a href="#contact" onclick="section()">Contact</a>
+  			<a href="javascript:void(0);" class="menu" onclick="menu()">
+    			<i class="zmdi zmdi-menu"></i>
+  			</a>
+		</div>
 
 		<div class="hero-image">
 			<div class="hero-text">
@@ -96,6 +100,25 @@
 	</div>
 
 	<script>
+
+		function menu() {
+			var topnav = document.getElementById("myTopnav");
+			if (topnav.className === "topnav") {
+				topnav.className += " responsive";
+			} else {
+				topnav.className = "topnav";
+			}
+		}
+
+		function section() {
+			var topnav = document.getElementById("myTopnav");
+			if (topnav.className === "topnav") {
+				return;
+			} else {
+				topnav.className = "topnav";
+			}
+		}
+
 		var modal = document.getElementById("emoji");
 		var span = document.getElementByClassName("close")[0];
 
