@@ -19,7 +19,7 @@
 
 		<div class="hero-image">
 			<div class="profile">
-				<img class="circular" src="images/profile.jpg" alt="Profile Image"/>
+				<img class="circular" src="resources/profile.jpg" alt="Profile Image"/>
 				<h1>Phu-Quy Felicia Trinh</h1>
 				<h2>Software Developer</h2>
 			</div>
@@ -27,37 +27,20 @@
 
 		<div id="introduction" class="grid grid-pad">
 			<h2 class="heading">Introduction</h2>
-			<p> Hi, I'm currently a software engineering intern at Picovoice and an incoming software engineering intern at Kohl's. </p>
+			<p> Hi, I'm currently a software engineering intern at Picovoice. </p>
 		</div>
 
 		<div id="portfoilio" class="grid grid-pad">
 			<h2 class="heading">Portfolio</h2>
-			
-			<div class="col-1-2">
-				<h3>Emoji</h3>
-		      	<!-- <a id="emojiModal" href="#emoji" class="modal-link"> -->
-		      	<a id="emojiModal" href="https://feliciatrinh.github.io/emoji" class="modal-link">
+				<div class="col-1-1">
 		        	<div class="overlay-container">
 		          		<div class="overlay">
-			            	<i class="zmdi zmdi-link"></i>
+			            	<i class="zmdi zmdi-zoom-in"></i>
 		          		</div>
-		          		<img src="images/emoji.jpg" alt="Emoji"/>
+		          		<img id="emoji-gif" src="resources/emoji-by-voice.gif" alt="Emoji By Voice"/>
 		        	</div>
-		      	</a>
-			</div>
-
-			<div class="col-1-2">
-				<h3>Pip</h3>
-				<a id="pipModal" href="https://pypi.org/project/pvporcupine/">
-		      	<!-- <a id="pipModal" href="#pip" class="modal-link"> -->
-		        	<div class="overlay-container">
-		          		<div class="overlay">
-			            	<i class="zmdi zmdi-link"></i>
-		          		</div>
-		          		<img src="images/pip.jpg" alt="Pip"/>
-		        	</div>
-		      	</a>
-			</div>
+				</div>
+		</div>
 
 			<p>Check out my projects at<a href="https://github.com/feliciatrinh"> github.com/feliciatrinh </a></p>
 		</div>
@@ -81,61 +64,6 @@
 				</div>
 			</div>
 		</div>
-
-<!-- Modals -->
-	<div id="emoji" class="modal-container">
-		<div class="modal-background close-emoji modal-close" role="document"></div>
-		<div class="modal-content grid grid-pad">
-			<div class="modal-header">
-				<span class="close">&times;</span>
-				<h2> Emoji </h2>
-			</div>
-			<div class="modal-body">
-				<img src="images/emoji.jpg" alt="Emoji"/>
-				<p> Emoji by Picovoice </p>
-			</div>
-		</div>
-	</div>
-
-	<script>
-
-		function menu() {
-			var topnav = document.getElementById("myTopnav");
-			if (topnav.className === "topnav") {
-				topnav.className += " responsive";
-			} else {
-				topnav.className = "topnav";
-			}
-		}
-
-		function section() {
-			var topnav = document.getElementById("myTopnav");
-			if (topnav.className === "topnav") {
-				return;
-			} else {
-				topnav.className = "topnav";
-			}
-		}
-
-		var modal = document.getElementById("emoji");
-		var span = document.getElementByClassName("close")[0];
-
-		// modal.onclick = function() {
-		// 	modal.style.display = "block";
-		// }
-
-		// closes modal when user clicks on <span> (x)
-		span.onclick = function() {
-			modal.style.display = "none";
-		}
-
-		// closes modal when user clicks anywhere outside of it
-		window.onclick = function(event) {
-			if (event.target == modal) {
-				modal.style.display = "none";
-			}
-		}
-	</script>
 
 	</body>
 </html>
